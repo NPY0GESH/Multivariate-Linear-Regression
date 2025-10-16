@@ -46,6 +46,7 @@ print('Intercept:', regr.intercept_)
 predictedCO2 = regr.predict(pd.DataFrame([[3300, 1300]], columns=['Weight', 'Volume']))
 print('Predicted CO2 for the corresponding weight and volume:', predictedCO2)
 
+
 ## Output:
 <img width="1047" height="103" alt="image" src="https://github.com/user-attachments/assets/2cede251-0f1c-45df-824d-424375f36812" />
 
